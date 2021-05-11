@@ -24,8 +24,7 @@ export default class Todos extends LightningElement {
   /** @param {string} direction */
   /** @returns {Todo[]} */
   filterTodos(direction) {
-    //
-    this.todos.test;
+    this.todos.test; // this will show error Property 'test' does not  exist on type 'Todo[]'
     return this.todos;
   }
 }
